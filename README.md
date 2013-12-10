@@ -2,7 +2,7 @@ DataAcquisition_MatlabFunction
 ===============
 
 This legacy code is provided for those of you who would like an inexpensive way to acquire tetrode data. 
-You may modify it as you wish (see LICENSE).
+You may modify it as you wish (see LICENSE). It requires matlab and the Data Acquisition Toolbox.
 Getting it to work on your particular system may be problematic due to incompatibilities in the parent application, 
 OS, and/or NI card.
 
