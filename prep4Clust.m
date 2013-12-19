@@ -1,9 +1,10 @@
-function tetclustho(filename,timerange,tets)
-%form:  tetclustho(filename,timerange,tets)
+function prep4Clust(filename,timerange,tets)
+%form:  prep4Clust(filename,timerange,tets)
 %
-%example:  tetclustho('data7332687782.txt',[1 35],4)
+%example:  prep4Clust('data7332687782.txt',[1 35],4)
 %
-%This function requires the matlab Signal Processing Toolbox
+%This function requires the matlab Signal Processing Toolbox and the Data
+%Acquisition Toolbox
 %
 %This function analyzes data from 4-tetrode array.
 %channel 0 = sound
@@ -547,7 +548,7 @@ for k=1:size(tet,1)
     save(['filestats' num2str(tetrodeid)],'sizetimes','timerange','triallen','trialdur','filename','tetrodeid','channels','datadir','cutlen','savlen','fs','mthr','spktm')
     
     %run KlustaKwik/mclust subprograms
-    runclustbatchtn_tetc(tetrodeid)
+    %we use a modified version of runclustbatch.m from MClust
     
     
 end;
