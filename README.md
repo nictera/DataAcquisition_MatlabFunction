@@ -30,7 +30,7 @@ The program assumes an NI PCI-6251 card and a NeuroNexus A16 Probe.
 tetread.m, a plotting function, is provided so that you can view your data and also see how to get it out of the data*.txt file.
 tetread is a bit slow to start, so give it time.
 
-tetclustho.m is a clustering function. It pulls out waveforms based on a rather low threshold, obtains features using a modified MClust (A.D.Redish) function, and then clusters using KlustaKwik (K. Harris). You will need to compile KlustaKwik for your computer.
+tetclustho.m is a clustering function. It pulls out waveforms based on a rather low threshold, obtains features using a modified MClust (A.D.Redish) function, and then clusters using KlustaKwik (K. Harris). You will need to compile KlustaKwik for your computer. tetclustho.m was written by Teresa Nick, with modifications by Nancy Day, Naoya Aoki, and Steve Kerrigan.
 
 MClust:
 http://redishlab.neuroscience.umn.edu/MClust/MClust.html
