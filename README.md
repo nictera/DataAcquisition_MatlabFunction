@@ -32,6 +32,11 @@ tetread is a bit slow to start, so give it time.
 
 tetclustho.m is a clustering function. It pulls out waveforms based on a rather low threshold, obtains features using a modified MClust (A.D.Redish) function, and then clusters using KlustaKwik (K. Harris). You will need to compile KlustaKwik for your computer.
 
+MClust:
+http://redishlab.neuroscience.umn.edu/MClust/MClust.html
+
+Klustakwik:
+https://github.com/klusta-team/klustakwik
 
 
 
